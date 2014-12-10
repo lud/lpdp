@@ -34,7 +34,7 @@ class RouteServiceProvider extends ServiceProvider {
 	 */
 	public function map()
 	{
-		$this->loadRoutesFrom(app_path('Http/routes.php'));
+		require app_path('Http/routes.php');
 	}
 
 }
