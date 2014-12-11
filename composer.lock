@@ -561,7 +561,7 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/niahoo/press.git",
-                "reference": "4ca065ef6e0296da40429bd7d739e998a938f52e"
+                "reference": "6a628830a436be84e3e5691250d5c08fe7d0d563"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -580,7 +580,7 @@
                 }
             ],
             "description": "A simple publishing library",
-            "time": "2014-12-09 17:43:42"
+            "time": "2014-12-11 18:05:47"
         },
         {
             "name": "lud/utils",
@@ -588,7 +588,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lud/utils-php",
-                "reference": "617a187ee63c73c14b0ec7e4d70e397b291f1adf"
+                "reference": "9eddd17fdad1f0e4048df6e6c7419a7539c8b5c3"
             },
             "require": {
                 "leeoniya/dump-r": "dev-master"
@@ -609,7 +609,7 @@
                 }
             ],
             "description": "Utility tools for PHP",
-            "time": "2014-12-11 17:59:58"
+            "time": "2014-12-11 18:16:51"
         },
         {
             "name": "monolog/monolog",
