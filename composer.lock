@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "511e2156093418cc6ad0837c23881e6f",
+    "hash": "33d48af0055e981a000971093ab4eadb",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -305,12 +305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c096f8512ad25cc8a09bc64b50f306f330bb889f"
+                "reference": "edd48d8d92692335ad0488c3402cd2d7eb7fcf10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c096f8512ad25cc8a09bc64b50f306f330bb889f",
-                "reference": "c096f8512ad25cc8a09bc64b50f306f330bb889f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/edd48d8d92692335ad0488c3402cd2d7eb7fcf10",
+                "reference": "edd48d8d92692335ad0488c3402cd2d7eb7fcf10",
                 "shasum": ""
             },
             "require": {
@@ -412,7 +412,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-08 16:03:11"
+            "time": "2014-12-11 17:15:21"
         },
         {
             "name": "league/flysystem",
@@ -503,6 +503,59 @@
             "time": "2014-12-09 15:48:33"
         },
         {
+            "name": "leeoniya/dump-r",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leeoniya/dump_r.php.git",
+                "reference": "7f96104bc1b34c0a6d534a6175d2fd1ae4573e7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/7f96104bc1b34c0a6d534a6175d2fd1ae4573e7d",
+                "reference": "7f96104bc1b34c0a6d534a6175d2fd1ae4573e7d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "jdorn/sql-formatter": "Pretty-print dumped SQL strings"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "dump_r.php"
+                ],
+                "psr-0": {
+                    "dump_r": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leon Sorokin",
+                    "email": "leeoniya@gmail.com",
+                    "homepage": "https://github.com/leeoniya",
+                    "role": "Developer"
+                }
+            ],
+            "description": "a cleaner, leaner mix of print_r() and var_dump()",
+            "homepage": "https://github.com/leeoniya/dump_r.php",
+            "keywords": [
+                "debug",
+                "dump",
+                "pretty",
+                "print",
+                "print_r",
+                "var_dump"
+            ],
+            "time": "2014-05-07 18:19:19"
+        },
+        {
             "name": "lud/press",
             "version": "dev-master",
             "source": {
@@ -528,6 +581,35 @@
             ],
             "description": "A simple publishing library",
             "time": "2014-12-09 17:43:42"
+        },
+        {
+            "name": "lud/utils",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lud/utils-php",
+                "reference": "617a187ee63c73c14b0ec7e4d70e397b291f1adf"
+            },
+            "require": {
+                "leeoniya/dump-r": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lud\\Utils\\": "src/"
+                },
+                "files": [
+                    "src/utils.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Ludovic Demblans",
+                    "email": "ludovic@demblans.com"
+                }
+            ],
+            "description": "Utility tools for PHP",
+            "time": "2014-12-11 17:59:58"
         },
         {
             "name": "monolog/monolog",
@@ -1568,7 +1650,7 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "dev-master",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
