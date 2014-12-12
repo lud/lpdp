@@ -4,9 +4,24 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/lud/SkrivMarkup.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/lud/utils-php.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/niahoo/press.git"
+        }
+    ],
+
 	"require": {
 		"laravel/framework": "~5.0",
-		"lud/press": "*"
+		"lud/press": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0"
@@ -36,15 +51,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://bitbucket.org/niahoo/press.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/lud/utils-php"
-        }
-    ]
+	"minimum-stability": "dev"
 }
