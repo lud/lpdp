@@ -561,7 +561,7 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/niahoo/press.git",
-                "reference": "6a628830a436be84e3e5691250d5c08fe7d0d563"
+                "reference": "eaee3b59a5e8e52e16bbb7ed6ffbea0ce1975e32"
             },
             "require": {
                 "php": ">=5.4.0",
@@ -580,7 +580,7 @@
                 }
             ],
             "description": "A simple publishing library",
-            "time": "2014-12-11 18:05:47"
+            "time": "2014-12-11 23:57:50"
         },
         {
             "name": "lud/utils",
