@@ -29,6 +29,9 @@ class AppServiceProvider extends ServiceProvider {
 			'Illuminate\Contracts\Auth\Registrar',
 			'App\Services\Registrar'
 		);
+		\Event::listen('press.mount',function(){
+			\Press::registerTheme('lpdp', base_path('resources/lpdp-theme'));
+		});
 	}
 
 }
