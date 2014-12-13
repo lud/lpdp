@@ -1,0 +1,13 @@
+#home-banner {
+	background: darkcyan;
+}
+#home-banner a {
+	-webkit-transition:fill 2s;
+	transition:fill 2s;
+}
+#home-banner text {
+	text-anchor:middle;
+}
+#home-banner a:hover {
+	text-decoration: none;
+}
