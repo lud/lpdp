@@ -1,13 +1,31 @@
 #home-banner {
-	background: darkcyan;
+	background: #5fc1e8;
+	background: RoyalBlue;
+}
+@font-face {
+	font-family: 'Architects Daughter';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Architects Daughter'), local('ArchitectsDaughter'), url(http://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBOkI_DLF4EgbZt3mhU8gQFo.woff) format('woff');
+}
+#home-banner {
+	position:relative;
+	height:300px;
 }
 #home-banner a {
-	-webkit-transition:fill 2s;
-	transition:fill 2s;
-}
-#home-banner text {
-	text-anchor:middle;
+	font-family: 'Architects Daughter';
+	font-size:40px;
+	color:white;
+	position:absolute;
+	margin:0;
 }
 #home-banner a:hover {
 	text-decoration: none;
 }
+#home-banner a:hover span {
+	position:relative;
+	top:-2px;
+	text-shadow: 0px 1px 1px #414141;
+}
+#tag-test { left:2px;	top:2px; }
+#tag-other { left:15px;	top:30px; }
