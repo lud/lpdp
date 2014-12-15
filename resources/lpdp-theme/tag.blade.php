@@ -1,10 +1,5 @@
 @extends ('press::layouts.base')
 
-<div id="home-banner">
-	<a id="tag-test" href="{{ URL::route('press.tag',['test']) }}"><span>This is a test !</span></a>
-	<a id="tag-other" href="{{ URL::route('press.tag',['dev']) }}"><span>Another test</span></a>
-</div>
-
 @section('content')
 	@foreach ($articles as $article)
 		<a href="{{ $article->url() }}">
