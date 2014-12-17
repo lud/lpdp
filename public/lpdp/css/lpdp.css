@@ -1,13 +1,24 @@
-#home-banner {
-	background: #5fc1e8;
-	background: RoyalBlue;
-	background: #aaa;
-}
 @font-face {
 	font-family: 'Architects Daughter';
 	font-style: normal;
 	font-weight: 400;
 	src: local('Architects Daughter'), local('ArchitectsDaughter'), url(http://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBOkI_DLF4EgbZt3mhU8gQFo.woff) format('woff');
+}
+#home-banner {
+	background: #5fc1e8;
+	background: RoyalBlue;
+	background: #aaa;
+}
+#navbar-wrapper {
+}
+#navbar-wrapper.affix {
+	top:0;
+	width:100%;
+	position:fixed;
+	z-index: 1000;
+}
+#navbar-wrapper.affix + .container {
+	padding-top:156px;
 }
 #home-banner {
 	position:relative;

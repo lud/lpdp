@@ -1,4 +1,4 @@
-@extends('lpdp-theme::layouts.base')
+@extends('press::layouts.base')
 
 @section('content')
 
