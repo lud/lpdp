@@ -78,7 +78,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY') ?: 'YourSecretKey!!!',
+	'key' => env('APP_KEY', 'YourSecretKey!!!'),
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -111,14 +111,6 @@ return [
 	'providers' => [
 
 		/*
-		 * Application Service Providers...
-		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
-
-		/*
 		 * Laravel Framework Service Providers...
 		 */
 		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
@@ -144,6 +136,15 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Lud\Press\PressServiceProvider',
+
+		/*
+		 * Application Service Providers...
+		 */
+		'App\Providers\AppServiceProvider',
+		'App\Providers\BusServiceProvider',
+		'App\Providers\ConfigServiceProvider',
+		'App\Providers\EventServiceProvider',
+		'App\Providers\RouteServiceProvider',
 
 	],
 
