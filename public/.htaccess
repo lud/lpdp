@@ -6,20 +6,23 @@
 
     RewriteEngine On
 
+
+
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
+
 
     # Freezer
     RewriteCond %{HTTP_COOKIE} !pressEditing [NC]
     RewriteCond %{REQUEST_METHOD} GET
-    RewriteCond %{DOCUMENT_ROOT}/.press-cache/$0\.html -f
-    RewriteRule ^.+$ .press-cache/$0.html [L]
+    RewriteCond %{DOCUMENT_ROOT}/.press-cache/$0\.cache\.html -f
+    RewriteRule ^.+$ .press-cache/$0.cache.html [L]
 
     # Freezer homepage
     RewriteCond %{HTTP_COOKIE} !pressEditing [NC]
     RewriteCond %{REQUEST_METHOD} GET
-    RewriteCond %{DOCUMENT_ROOT}/.press-cache/_root\.html -f
-    RewriteRule ^$ .press-cache/_root.html [L]
+    RewriteCond %{DOCUMENT_ROOT}/.press-cache/_root\.cache\.html -f
+    RewriteRule ^$ .press-cache/_root.cache.html [L]
 
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
