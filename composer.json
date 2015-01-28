@@ -20,7 +20,7 @@
     ],
 
 	"require": {
-		"laravel/framework": "~5.0",
+		"laravel/framework": "5.0.*@dev",
 		"lud/press": "dev-master"
 	},
 	"require-dev": {
@@ -56,6 +56,5 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	},
-	"minimum-stability": "dev"
+	}
 }
