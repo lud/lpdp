@@ -29,6 +29,9 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
+    # Handle / with front controller
+    RewriteRule ^$ index.php [L]
+
 
 </IfModule>
 
