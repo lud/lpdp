@@ -21,7 +21,7 @@
 
 	"require": {
 		"laravel/framework": "5.0.*@dev",
-		"lud/press": "dev-master"
+		"lud/press": "1.*@dev"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
@@ -56,5 +56,7 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
 }
