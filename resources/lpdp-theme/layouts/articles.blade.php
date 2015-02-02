@@ -5,7 +5,7 @@
 	{!! $content['html'] !!}
 
 	<p class="published-date">
-		Publié le {{ strftime("%A %e %B %Y", $meta->dateTime()->getTimestamp()) }}
+		Publié le {{ Lud\Utils\toUTF8(strftime("%A %d %B %Y", $meta->dateTime()->getTimestamp())) }}
 	</p>
 
 	@if($content['footnotes_html'])
