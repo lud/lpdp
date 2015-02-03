@@ -1,9 +1,18 @@
 @extends ('press::layouts.base')
 
 @section('top')
+	<?php
+		$tags = require(\Press::getThemeDir('lpdp').'/banner-tags.php');
+	?>
 	<div id="home-banner">
-		<a id="tag-test" href="{{ URL::route('press.tag',['test']) }}"><span>This is a test !</span></a>
-		<a id="tag-other" href="{{ URL::route('press.tag',['dev']) }}"><span>Another test</span></a>
+		<a href="//nowhere">
+			<span>Les P'tits Pas</span>
+		</a>
+		@foreach($tags as $tag => $label)
+			<a id="tag-{!! substr(str_slug($tag),0,6) !!}" href="{!! URL::route('press.tag',[$tag]) !!}">
+				<span>{{ $label }}</span>
+			</a>
+		@endforeach
 	</div>
 	<div id="navbar-wrapper" data-spy="affix" data-offset-top="360">
 		@include('press::pressParts.navbar')
