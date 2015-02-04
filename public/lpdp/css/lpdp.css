@@ -8,6 +8,8 @@
 	background: #5fc1e8;
 	background: RoyalBlue;
 	background: #aaa;
+	background: url(../img/banner-2.png) no-repeat;
+	background-size: 800px auto;
 }
 #navbar-wrapper {
 }
@@ -26,8 +28,7 @@
 }
 #home-banner a {
 	font-family: 'Architects Daughter';
-	font-size:40px;
-	color:white;
+	color:black;
 	position:absolute;
 	margin:0;
 }
@@ -39,8 +40,34 @@
 	top:-2px;
 	text-shadow: 0px 1px 1px #414141;
 }
-#tag-test { left:2px;	top:2px; }
-#tag-other { left:15px;	top:30px; }
+#home-title	{ top:67px; left:9px; font-size:80px; letter-spacing:2px; }
+#tag-zero-d	{ top:47px; left:3px; font-size:37px; letter-spacing:1px; }
+#tag-agricu	{ top:4px; left:591px; font-size:37px; letter-spacing:-2px; }
+#tag-locavo	{ top:197px; left:633px; font-size:41px; letter-spacing:-4px; }
+#tag-solida	{ top:176px; left:444px; font-size:33px; letter-spacing:0px; }
+
+#tag-ecolog	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-enviro	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-astuce	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-alimen	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-consom	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-bons-p	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-occasi	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-vrac  	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-cooper	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-energi	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-sante 	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-durabl	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-recycl	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-develo	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-vegeta	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-desobe	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-entrai	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-bio   	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-econom	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-compos	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-partag	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
+#tag-toulou	{ top:0px; left:0px; font-size:33px; letter-spacing:1px; }
 p {
 	text-align:justify;
 }

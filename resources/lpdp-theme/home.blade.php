@@ -5,11 +5,11 @@
 		$tags = require(\Press::getThemeDir('lpdp').'/banner-tags.php');
 	?>
 	<div id="home-banner">
-		<a href="//nowhere">
+		<a id="home-title" href="//nowhere">
 			<span>Les P'tits Pas</span>
 		</a>
 		@foreach($tags as $tag => $label)
-			<a id="tag-{!! substr(str_slug($tag),0,6) !!}" href="{!! URL::route('press.tag',[$tag]) !!}">
+			<a id="tag-{!! substr(str_slug($tag),0,6) !!}" href="{!! URL::route('press.tag',[mb_strtolower($tag)]) !!}">
 				<span>{{ $label }}</span>
 			</a>
 		@endforeach
