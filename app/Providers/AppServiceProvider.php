@@ -31,6 +31,7 @@ class AppServiceProvider extends ServiceProvider {
 		);
 		\Event::listen('press.mount',function(){
 			\Press::registerTheme('lpdp', base_path('resources/lpdp-theme'));
+			\Press::registerTheme('lud', base_path('resources/lud-theme'));
 		});
 	}
 
