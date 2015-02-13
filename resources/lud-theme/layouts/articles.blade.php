@@ -17,4 +17,10 @@
 		</div>
 		@endif
 	</div>
+
+@stop
+
+@section('assets_scripts')
+	@parent
+	<script>hljs.initHighlightingOnLoad();</script>
 @stop

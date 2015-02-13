@@ -60,3 +60,12 @@ p.published-date {
 	box-shadow: 6px 6px 10px 0px #888888;
 	margin:2em auto;
 }
+/* disable bootstrap pre tags */
+pre {
+	padding: 0px;
+	border: none;
+	font-size: 14px;
+	background:white;
+	line-height: 1.42857143;
+	border-radius: 0px;
+}
