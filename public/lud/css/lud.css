@@ -1,14 +1,3 @@
-@font-face {
-	font-family: 'Architects Daughter';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Architects Daughter'), local('ArchitectsDaughter'), url(http://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBOkI_DLF4EgbZt3mhU8gQFo.woff) format('woff');
-}
-#home-banner {
-	background: #5fc1e8;
-	background: RoyalBlue;
-	background: #aaa;
-}
 #navbar-wrapper {
 }
 #navbar-wrapper.affix {
@@ -20,30 +9,15 @@
 #navbar-wrapper.affix + .container {
 	padding-top:156px;
 }
-#home-banner {
-	position:relative;
-	height:300px;
-}
-#home-banner a {
-	font-family: 'Architects Daughter';
-	font-size:40px;
-	color:white;
-	position:absolute;
-	margin:0;
-}
-#home-banner a:hover {
-	text-decoration: none;
-}
-#home-banner a:hover span {
-	position:relative;
-	top:-2px;
-	text-shadow: 0px 1px 1px #414141;
-}
-#tag-test { left:2px;	top:2px; }
-#tag-other { left:15px;	top:30px; }
-.content {
-	padding:0 20px;
-}
+div.footnotes { font-size: 0.9em;}
+div.footnotes hr { display:none; }
+div.footnotes hr { display:none; }
+div.footnotes-sep1 { width:30px; border-top:3px solid #222; margin:1em 0 0;}
+div.footnotes-sep2 { width:170px; border-top:1px solid #222; margin:0 0 1em;}
+div.footnotes ol { padding-left:2em; }
+div.footnotes ol li { list-style-position: outside; }
+/*div.footnotes ol li::marker { margin-left: -3em; }*/
+body { padding-bottom: 2em; }
 @media (min-width:768px){
 	.content {
 		padding:0 50px;

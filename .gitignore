@@ -4,3 +4,5 @@
 /public/packages
 composer.lock
 .press-cache
+/storage/database.sqlite
+/config/press.php
