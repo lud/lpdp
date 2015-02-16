@@ -30,8 +30,8 @@ class AppServiceProvider extends ServiceProvider {
 			'App\Services\Registrar'
 		);
 		\Event::listen('press.mount',function(){
-			\Press::registerTheme('lpdp', base_path('resources/lpdp-theme'));
-			\Press::registerTheme('lud', base_path('resources/lud-theme'));
+			\Press::registerTheme('lpdp', renv('LPDP_THEME_DIR'));
+			\Press::registerTheme('lud', renv('LUD_THEME_DIR'));
 		});
 	}
 
