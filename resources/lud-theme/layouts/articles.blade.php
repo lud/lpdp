@@ -11,9 +11,7 @@
 			</p>
 
 			@if($content['footnotes_html'])
-			<div class="footnotes">
 				{!! $content['footnotes_html'] !!}
-			</div>
 			@endif
 		</div>
 	</div>

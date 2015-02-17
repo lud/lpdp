@@ -44,3 +44,27 @@ pre {
 	line-height: 1.42857143;
 	border-radius: 0px;
 }
+
+.press .navbar-default {
+	background-color: #F0F0F0;
+}
+
+.press .navbar-default .navbar-brand,
+.press .navbar-default .navbar-nav > li > a {
+	color: #313131;
+}
+
+.press .navbar-default .navbar-brand:hover,
+.press .navbar-default .navbar-brand:focus,
+.press .navbar-default .navbar-nav > li > a:hover,
+.press .navbar-default .navbar-nav > li > a:focus {
+	color: #aaa;
+	background-color: #F0F0F0;
+}
+
+.press .navbar-brand,
+.press .navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
