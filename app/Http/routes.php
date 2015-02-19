@@ -8,4 +8,4 @@ Route::controllers([
 ]);
 
 \Press::listRoute('tag/{tag}', 'tag|sort', ['as' => 'press.tag']);
-\Press::listRoute('/', 'all|sort:date,desc', ['as' => 'press.home']);
+\Press::listRoute('/', 'all|sort:date,desc', ['as' => 'press.home', 'view' => '_::home']);
