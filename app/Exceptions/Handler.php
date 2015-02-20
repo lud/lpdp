@@ -2,6 +2,8 @@
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Press;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 
 class Handler extends ExceptionHandler {
 
@@ -38,5 +40,23 @@ class Handler extends ExceptionHandler {
 	{
 		return parent::render($request, $e);
 	}
+
+	/**
+	 * Render the given HttpException.
+	 *
+	 * @param  \Symfony\Component\HttpKernel\Exception\HttpException  $e
+	 * @return \Symfony\Component\HttpFoundation\Response
+	 */
+	protected function renderHttpException(HttpException $e)
+	{
+		$status = $e->getStatusCode();
+
+		if (Press::hasHttpExceptionView($status)) {
+			return Press::renderHttpException($status);
+		} else {
+			return parent::renderHttpException($e);
+		}
+	}
+
 
 }
