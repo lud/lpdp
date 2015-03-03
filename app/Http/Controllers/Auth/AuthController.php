@@ -16,9 +16,13 @@ class AuthController extends Controller {
 	| authentication of existing users. By default, this controller uses
 	| a simple trait to add these behaviors. Why don't you explore it?
 	|
-	*/
-
-	use AuthenticatesAndRegistersUsers;
+	| Within a Press app we do not want registration, so we reset registration
+	| related methods as private so they do not produce a route
+	 */
+	use AuthenticatesAndRegistersUsers {
+		getRegister as private;
+		postRegister as private;
+	}
 
 	/**
 	 * Create a new authentication controller instance.
@@ -35,12 +39,7 @@ class AuthController extends Controller {
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 
-	public function getRegister() {
-		abort(404);
-	}
 
-	public function postRegister(Request $request) {
-		abort(404);
-	}
+
 
 }
