@@ -2,7 +2,6 @@
 .env
 /node_modules
 /public/packages
-composer.lock
 .press-cache
 /storage/database.sqlite
 /config/press.php
