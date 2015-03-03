@@ -5,3 +5,4 @@
 .press-cache
 /storage/database.sqlite
 /config/press.php
+/app/Http/routes.php

@@ -40,6 +40,16 @@ class AuthController extends Controller {
 	}
 
 
+	/**
+	 * Log the user out of the application. Overrides the trait to stop press
+	 * edition
+	 * @return \Illuminate\Http\Response
+	 */
+	public function getLogout()
+	{
+		$this->auth->logout();
 
+		return redirect('/')->withCookie(\Cookie::forget('pressEditing'));
+	}
 
 }

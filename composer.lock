@@ -756,7 +756,7 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/niahoo/press.git",
-                "reference": "e911cc626d65c40edd90743eb0240b7db2df8457"
+                "reference": "c731a0515989af7bd448ec260dc3fc798cfaf07e"
             },
             "require": {
                 "amaury/skrivmarkup": "dev-classic-linebreaks",
@@ -782,7 +782,7 @@
                 }
             ],
             "description": "A simple publishing library",
-            "time": "2015-02-27 11:08:37"
+            "time": "2015-03-03 18:27:29"
         },
         {
             "name": "lud/utils",
