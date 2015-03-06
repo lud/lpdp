@@ -12,10 +12,6 @@
         {
             "type": "git",
             "url": "https://github.com/lud/utils-php.git"
-        },
-        {
-            "type": "git",
-            "url": "https://bitbucket.org/niahoo/press.git"
         }
     ],
 

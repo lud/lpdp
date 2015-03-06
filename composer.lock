@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c591d1aaf4f7b3461979bb6e54a5af93",
+    "hash": "d48f2e2398ef3221850af62d2f1e2a83",
     "packages": [
         {
             "name": "amaury/skrivmarkup",
@@ -755,8 +755,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://bitbucket.org/niahoo/press.git",
-                "reference": "c731a0515989af7bd448ec260dc3fc798cfaf07e"
+                "url": "https://github.com/lud/press.git",
+                "reference": "9550ac5180b4f6aef22591fd8bf42e5b7c55b79e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lud/press/zipball/9550ac5180b4f6aef22591fd8bf42e5b7c55b79e",
+                "reference": "9550ac5180b4f6aef22591fd8bf42e5b7c55b79e",
+                "shasum": ""
             },
             "require": {
                 "amaury/skrivmarkup": "dev-classic-linebreaks",
@@ -775,6 +781,10 @@
                     "Lud\\Press": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "lud",
@@ -782,7 +792,7 @@
                 }
             ],
             "description": "A simple publishing library",
-            "time": "2015-03-03 18:27:29"
+            "time": "2015-03-06 15:50:51"
         },
         {
             "name": "lud/utils",
@@ -866,16 +876,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.12.0",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1fbe8c2641f2b163addf49cc5e18f144bec6b19f"
+                "reference": "c41c218e239b50446fd883acb1ecfd4b770caeae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1fbe8c2641f2b163addf49cc5e18f144bec6b19f",
-                "reference": "1fbe8c2641f2b163addf49cc5e18f144bec6b19f",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c41c218e239b50446fd883acb1ecfd4b770caeae",
+                "reference": "c41c218e239b50446fd883acb1ecfd4b770caeae",
                 "shasum": ""
             },
             "require": {
@@ -892,6 +902,7 @@
                 "phpunit/phpunit": "~4.0",
                 "raven/raven": "~0.5",
                 "ruflin/elastica": "0.90.*",
+                "swiftmailer/swiftmailer": "~5.3",
                 "videlalvaro/php-amqplib": "~2.4"
             },
             "suggest": {
@@ -908,7 +919,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12.x-dev"
+                    "dev-master": "1.13.x-dev"
                 }
             },
             "autoload": {
@@ -934,7 +945,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-12-29 21:29:35"
+            "time": "2015-03-05 01:12:12"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -982,16 +993,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.15.0",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "48cb9ae6d9436e156316a59d198cb1ca797f8cd8"
+                "reference": "9b7665041754eaa9bb2622349bc9adbc1cf61cb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/48cb9ae6d9436e156316a59d198cb1ca797f8cd8",
-                "reference": "48cb9ae6d9436e156316a59d198cb1ca797f8cd8",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9b7665041754eaa9bb2622349bc9adbc1cf61cb8",
+                "reference": "9b7665041754eaa9bb2622349bc9adbc1cf61cb8",
                 "shasum": ""
             },
             "require": {
@@ -1024,7 +1035,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2015-03-03 03:24:43"
+            "time": "2015-03-04 04:50:11"
         },
         {
             "name": "nikic/php-parser",
