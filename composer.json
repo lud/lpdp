@@ -3,9 +3,26 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
-	"type": "project"
+	"type": "project",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/lud/SkrivMarkup.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/lud/utils-php.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/niahoo/press.git"
+        }
+    ],
+
 	"require": {
+		"amaury/skrivmarkup":"@dev",
 		"shark/simple_html_dom":"@dev",
+		"amaury/wikirenderer":"@dev",
 		"leeoniya/dump-r":"@dev",
 		"lud/press": "dev-master@dev",
 		"lud/utils": "dev-master@dev",
