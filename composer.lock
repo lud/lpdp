@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "d48f2e2398ef3221850af62d2f1e2a83",
+    "content-hash": "b2e99a150699d240f11cb055cc4e6ffa",
     "packages": [
         {
             "name": "amaury/skrivmarkup",
@@ -708,7 +709,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/6cae2c80b246ab9abcf1fccbc2c5c5d658400cc0",
+                "url": "https://api.github.com/repos/leeoniya/dump_r.php/zipball/f6d3694f4ddd7dc08d7b3900875116eaf600034d",
                 "reference": "6cae2c80b246ab9abcf1fccbc2c5c5d658400cc0",
                 "shasum": ""
             },
@@ -757,12 +758,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lud/press.git",
-                "reference": "d41f90b1c5c877398afae96c09009f22b85faaca"
+                "reference": "5eeae9545dbbfcf2a4c8022a7ba42941fabaa301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lud/press/zipball/d41f90b1c5c877398afae96c09009f22b85faaca",
-                "reference": "d41f90b1c5c877398afae96c09009f22b85faaca",
+                "url": "https://api.github.com/repos/lud/press/zipball/5eeae9545dbbfcf2a4c8022a7ba42941fabaa301",
+                "reference": "5eeae9545dbbfcf2a4c8022a7ba42941fabaa301",
                 "shasum": ""
             },
             "require": {
@@ -793,7 +794,7 @@
                 }
             ],
             "description": "A simple publishing library",
-            "time": "2015-05-18 15:06:51"
+            "time": "2015-09-16 14:19:16"
         },
         {
             "name": "lud/utils",
